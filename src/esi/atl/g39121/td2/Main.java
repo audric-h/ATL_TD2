@@ -1,12 +1,7 @@
 package esi.atl.g39121.td2;
 
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-/**
- * Created by audric on 25.02.16.
- */
 public class Main {
     public static void main(String[] args) {
         AsciiPaint a = new AsciiPaint(10,10);

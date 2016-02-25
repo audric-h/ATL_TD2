@@ -1,7 +1,7 @@
 package esi.atl.g39121.td2;
 
 /**
- * Created by audric on 25.02.16.
+ * Représente une forme "colorée" dans un repère (X:Y).
  */
 public abstract class ColoredShape implements Shape {
     private char color;
@@ -12,9 +12,5 @@ public abstract class ColoredShape implements Shape {
 
     public char getColor() {
         return this.color;
-    }
-
-    public void setColor(char c) {
-        this.color = c;
     }
 }

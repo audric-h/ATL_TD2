@@ -1,7 +1,7 @@
 package esi.atl.g39121.td2;
 
 /**
- * Created by audric on 25.02.16.
+ * Représente une forme d'un repere (X:Y).
  */
 public interface Shape {
     boolean isInside(Point p);
